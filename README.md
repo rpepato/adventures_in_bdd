@@ -4,16 +4,12 @@ The RSpec Book Exercises
 
 This repository contains the code developed by following the examples described on the  book "Test RSpec Book: Behaviour Driven Development with RSpec, Cucumber, and Friends" written by [David Chelimsky](https://twitter.com/dchelimsky) et. al.
 
-The provided code implements a command-line version of the codebreaker game. 
+The provided code implements a command-line version of the codebreaker game.
 
-To run the examples, just instal the required gems:
+To run the examples:
 
-    gem install cucumber  
-    gem install rspec
-
-And being on the repository root, run the specs and scnearios:
-
-    rspec spec/
-    cucumber features/
-
-
+```ruby
+bundle
+rspec
+cucumber
+```
